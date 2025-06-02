@@ -6,7 +6,7 @@ pipeline{
 	stages{
 		stage('a'){
 			steps{
-				git branch: 'master' url:'https://github.com/rishitabafna/bi22cs128.git'
+				git branch: 'master', url:'https://github.com/rishitabafna/bi22cs128.git'
 			}
 		}		
 		stage('b'){
